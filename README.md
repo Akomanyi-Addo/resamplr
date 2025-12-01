@@ -143,7 +143,9 @@ ctrl
 ## 🏗 Project Structure
 
 resamplr/
-├── DESCRIPTION
+
+  |--- DESCRIPTION
+  
 ├── LICENSE
 ├── LICENSE.md
 ├── NAMESPACE
