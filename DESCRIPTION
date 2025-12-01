@@ -1,14 +1,29 @@
 Package: resamplr
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Title: Resampling, Permutation Testing, and Monte Carlo Methods in R
+Version: 0.1.0
+Authors@R: c(
+    person("Felix", "Sarpong", 
+           email = "fsarpong1@student.gsu.edu", 
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-5900-6381")),
+    person("Allswell", "Akomanyi", 
+           email = "aakomanyi1@student.gsu.edu", 
+           role = "aut",
+           comment = c(ORCID = ""))
+)
+Description: 
+    A pedagogically oriented implementation of classical resampling and 
+    randomization methods for Statistical Computing. The package includes 
+    from-scratch implementations of the bootstrap (SE, bias, and CIs), 
+    jackknife, permutation tests, K-fold and leave-one-out cross-validation, 
+    and Monte Carlo integration with variance reduction (antithetic variables, 
+    control variates, importance sampling, and stratification). 
+    Designed for graduate-level courses in computational statistics.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
-Suggests: 
+Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 URL: https://github.com/fsarpong/resamplr
