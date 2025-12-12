@@ -26,7 +26,7 @@ Install the most recent development version from GitHub:
 # Install remotes if needed
 install.packages("remotes")
 
-# Install resamplr from GitHub (your fork)
+# Install resamplr from GitHub
 remotes::install_github("Akomanyi-Addo/resamplr")
 
 # Load the package
