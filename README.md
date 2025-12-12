@@ -23,7 +23,7 @@ The package is licensed under the **MIT License**, allowing open educational use
 Install the most recent development version from GitHub:
 
 ```r
-# Install remotes if needed
+# Install remotes
 install.packages("remotes")
 
 # Install resamplr from GitHub
