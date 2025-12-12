@@ -199,9 +199,7 @@ See the LICENSE and LICENSE.md files for details.
 
 ## Author
 
-Felix A. Sarpong
-
-Allswell A. Akomanyi
+Felix A. Sarpong & Allswell A. Akomanyi
 
 MS Applied Statistics
 
